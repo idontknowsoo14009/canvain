@@ -36,7 +36,7 @@ colorPicker.addEventListener('input', () => {
  
 let downloadbtn = document.getElementById('dwnld') 
 
-downloadbtn.addEventListener('click', () => { 
+downloadbtn.addEventListener('click', () => { // download button  code
     const dataURL = canvas.toDataURL('image/png');
    const link = document.createElement('a'); 
    link.href = dataURL;
